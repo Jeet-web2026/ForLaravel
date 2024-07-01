@@ -1,0 +1,12 @@
+{
+    "name": "Laravel Development",
+    "image": "mcr.microsoft.com/devcontainers/php:8",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "16"
+        },
+        "ghcr.io/devcontainers/features/composer:1": {}
+    },
+    "postCreateCommand": "composer install"
+}
