@@ -1,2 +1,0 @@
-# ForLaravel
-For laravel practices
